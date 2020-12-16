@@ -1,0 +1,199 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+
+    .buttonUp
+    {
+        right: 10px;
+        bottom: 10px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .socials
+    {
+        display: none;
+    }
+
+
+    header .search
+    {
+        position: static;
+    }
+
+
+    header .search .mini_modal
+    {
+        right: 20px;
+
+        width: calc(100% - 40px);
+    }
+
+    header .search .mini_modal.active
+    {
+        top: 100%;
+
+        transform: translateY(10px);
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info .title
+    {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .about_block .block_desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .about_block .row
+    {
+        margin-bottom: -20px;
+        padding-bottom: 0;
+    }
+
+    .about_block .row > *
+    {
+        max-width: calc(100% - 20px);
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .title
+    {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .links > *
+    {
+        width: calc(100% - 30px);
+    }
+
+
+
+    /*------------
+        Invest
+    ------------*/
+    .invest .slide
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    footer .links
+    {
+        width: 50%;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,403 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .buttonUp
+    {
+        bottom: 41px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 15px 0;
+    }
+
+
+    header .logo
+    {
+        margin-right: auto;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        padding: 20px;
+
+        transition: background .2s linear;
+        text-align: center;
+
+        background: rgba(0,0,0,.75);
+    }
+
+    header .menu > * + *
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    header .menu > * > a
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        display: inline-block;
+
+        min-height: 0;
+
+        vertical-align: top;
+    }
+
+
+    header .menu > * .sub_menu,
+    header .menu > *:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+
+        display: none;
+        visibility: hidden;
+
+        width: 100%;
+        margin: 15px 0 5px;
+    }
+
+    header .menu > * > a.touch_link + .sub_menu.show
+    {
+        top: 0;
+
+        display: block;
+    }
+
+
+
+    header .socials + .search
+    {
+        margin-left: 40px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        padding-bottom: 29px;
+    }
+
+    .block_head .sub_title
+    {
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info .title
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+
+    .first_section .parallax img.layer1
+    {
+        left: -130px !important;
+    }
+
+    .first_section .parallax img.layer2
+    {
+        right: -120px !important;
+    }
+
+    .first_section .parallax img.layer3
+    {
+        bottom: -130px !important;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        padding: 100px 0;
+    }
+
+
+    .about_block .block_title
+    {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .about_block .block_desc
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        margin-top: 25px;
+    }
+
+
+    .about_block .row > *
+    {
+        max-width: calc(33.333% - 80px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        padding: 100px 0;
+    }
+
+
+    .mission .title
+    {
+        font-size: 60px;
+        line-height: 60px;
+
+        padding-right: 60px;
+    }
+
+
+    .mission .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        padding: 0 0 0 60px;
+    }
+
+
+
+    /*----------------
+        Dev. stage
+    ----------------*/
+    .dev_stage
+    {
+        padding: 100px 0;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .block_title
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .events .event .date,
+    .events .event .time
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news
+    {
+        padding: 100px 0;
+    }
+
+
+    .news .list,
+    .news .news_details
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .news .list .item .arr
+    {
+        left: calc(100% + 10px);
+    }
+
+
+    .news .news_details .item .desc
+    {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding: 100px 0;
+    }
+
+
+    .team .row
+    {
+        margin-bottom: -20px;
+        margin-left: -30px;
+    }
+
+    .team .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+
+    .team .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .team .item .photo
+    {
+        width: 130px;
+        height: 144px;
+    }
+
+    .team .item .photo img
+    {
+        top: -9px;
+        left: -22px;
+
+        width: 174px;
+        height: 180px;
+    }
+
+    .team .item .name
+    {
+        width: calc(100% - 150px);
+    }
+
+
+    .team .text_block
+    {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+
+    .team .parallax img.layer1
+    {
+        left: -160px !important;
+    }
+
+    .team .parallax img.layer2
+    {
+        right: -130px !important;
+    }
+
+
+
+    /*------------
+        Invest
+    ------------*/
+    .invest
+    {
+        padding: 100px 0;
+    }
+
+
+
+    .invest .slider_title
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+
+    .invest .slide
+    {
+        width: 157px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .title
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+    footer .bottom
+    {
+        font-size: calc(var(--font_size) - 2px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

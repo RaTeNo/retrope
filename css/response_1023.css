@@ -1,0 +1,309 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 44px;
+    }
+
+
+    .buttonUp
+    {
+        bottom: 55px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info .title
+    {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+    .first_section .parallax img.layer1,
+    .first_section .parallax img.layer3
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .about_block .block_title
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .about_block .block_title br
+    {
+        display: none;
+    }
+
+    .about_block .block_desc
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        margin-top: 20px;
+    }
+
+
+    .about_block .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .about_block .row > *
+    {
+        max-width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        padding: 80px 0;
+    }
+
+
+    .mission .title
+    {
+        font-size: 50px;
+        line-height: 60px;
+
+        padding-right: 40px;
+    }
+
+
+    .mission .desc
+    {
+        font-size: 17px;
+        line-height: 27px;
+
+        padding: 0 0 0 40px;
+    }
+
+
+
+    /*----------------
+        Dev. stage
+    ----------------*/
+    .dev_stage
+    {
+        padding: 80px 0;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .block_title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+
+    .events .list
+    {
+        width: calc(100% - 290px);
+    }
+
+
+    .events .event .name
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .events .event .date,
+    .events .event .time
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news
+    {
+        padding: 80px 0;
+    }
+
+
+
+    .news .list
+    {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .news .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .news .news_details
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding: 80px 0;
+    }
+
+
+    .team .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .team .text_block
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .team .text_block > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Invest
+    ------------*/
+    .invest
+    {
+        padding: 80px 0;
+    }
+
+
+    .invest .slider_title
+    {
+        font-size: 26px;
+        line-height: 36px;
+
+        margin-top: 20px;
+    }
+
+
+    .invest .slider
+    {
+        margin-top: 20px;
+        padding: 0 50px;
+    }
+
+    .invest .slide
+    {
+        width: 196px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info .cont
+    {
+        margin-bottom: -30px;
+    }
+
+    footer .links
+    {
+        width: 33.333%;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 30px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        width: 45px;
+        height: 45px;
+    }
+}

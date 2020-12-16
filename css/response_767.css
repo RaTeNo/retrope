@@ -1,0 +1,382 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    .buttonUp
+    {
+        bottom: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 15px 0;
+    }
+
+
+    header .logo a,
+    header .logo img
+    {
+        height: 30px;
+    }
+
+
+    header .socials a + a
+    {
+        margin-left: 15px;
+    }
+
+
+    header .socials + .search
+    {
+        margin-left: 20px;
+    }
+
+
+    header .search .btn
+    {
+        width: 38px;
+        height: 36px;
+    }
+
+    header .search .btn .icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    header .search .mini_modal
+    {
+        width: 334px;
+    }
+
+
+    header .search form .input
+    {
+        width: calc(100% - 43px);
+        height: 36px;
+    }
+
+    header .search form .submit_btn
+    {
+        width: 38px;
+        height: 36px;
+    }
+
+    header .search form .submit_btn .icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 35px;
+    }
+
+    .block_head .title
+    {
+        padding-bottom: 19px;
+    }
+
+    .block_head .sub_title
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+
+    .first_section .mouse
+    {
+        bottom: 20px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .about_block .block_title
+    {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .about_block .block_desc
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    .about_block .row
+    {
+        padding-bottom: 65px;
+    }
+
+    .about_block .row > *
+    {
+        max-width: calc(50% - 20px);
+        margin-bottom: -45px;
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission
+    {
+        padding: 60px 0;
+    }
+
+
+    .mission .title
+    {
+        font-size: 42px;
+        line-height: 50px;
+
+        width: 100%;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+
+    .mission .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .mission .bg
+    {
+        right: 0;
+
+        width: 100%;
+    }
+
+
+    .mission .parallax
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Dev. stage
+    ----------------*/
+    .dev_stage
+    {
+        padding: 60px 0;
+    }
+
+
+    .dev_stage table td.name
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        width: 100%;
+        height: auto;
+        margin: 0 0 30px;
+        padding: 15px;
+
+        background: #fff;
+        box-shadow: 0 10px 40px 0 rgba(61, 129, 131, .2);
+    }
+
+    .events .block_title:before
+    {
+        display: none;
+    }
+
+    .events .block_title br
+    {
+        display: none;
+    }
+
+
+    .events .list
+    {
+        width: 100%;
+    }
+
+    .events .event .name
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding: 60px 0;
+    }
+
+
+    .team .item .photo
+    {
+        margin: 0 auto 10px;
+    }
+
+    .team .item .name
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .team .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .team .links
+    {
+        margin-top: 35px;
+    }
+
+    .team .links a
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+
+    /*------------
+        Invest
+    ------------*/
+    .invest
+    {
+        padding: 60px 0;
+    }
+
+
+    .invest .slider_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .invest .slider
+    {
+        padding: 0 40px;
+    }
+
+    .invest .slide
+    {
+        width: 170px;
+    }
+
+    .invest .slide .year
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .address
+    {
+        width: 100%;
+        margin-bottom: 15px;
+        padding-right: 60px;
+    }
+}

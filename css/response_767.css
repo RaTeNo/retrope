@@ -16,6 +16,12 @@
     }
 
 
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
 
     /*------------
         Header
@@ -93,6 +99,31 @@
     /*---------------
         Page head
     ---------------*/
+    .page_head
+    {
+        min-height: 0;
+        padding-top: 76px;
+        padding-bottom: 46px;
+    }
+
+
+    .page_head .cont > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .breadcrumbs
+    {
+        line-height: 22px;
+    }
+
+
+    .page_title
+    {
+        font-size: 44px;
+        line-height: 50px;
+    }
 
 
 
@@ -120,6 +151,63 @@
     /*------------------
         Form elements
     ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 25px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 34px;
+        line-height: 38px;
+
+        margin-bottom: 15px;
+    }
+
+    .text_block h3
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 15px;
+    }
+
+
+    .text_block img.right,
+    .text_block img.left
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .text_block blockquote
+    {
+        padding-left: 23px;
+    }
+
+    .text_block blockquote .text
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
 
 
 
@@ -366,6 +454,60 @@
     .invest .slide .year
     {
         font-size: 26px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .years > *
+    {
+        width: calc(50% - 10px);
+    }
+
+    .articles .years a
+    {
+        font-size: 15px;
+        line-height: 17px;
+
+        min-height: 37px;
+    }
+
+
+
+    .articles .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .cont > * + *
+    {
+        margin-top: 30px;
+    }
+
+    .article_info .head .article_title
+    {
+        font-size: 44px;
+        line-height: 50px;
     }
 
 

@@ -20,6 +20,18 @@
     /*------------
         Header
     ------------*/
+    header .search .btn
+    {
+        width: 38px;
+        height: 36px;
+        padding: 8px;
+    }
+
+    header .search .btn .icon
+    {
+        width: 19px;
+        height: 19px;
+    }
 
 
 
@@ -32,6 +44,24 @@
     /*---------------
         Page head
     ---------------*/
+    .page_head
+    {
+        min-height: 290px;
+        margin-bottom: 40px;
+        padding-bottom: 60px;
+    }
+
+    .page_head .cont > * + *
+    {
+        margin-top: 50px;
+    }
+
+
+    .page_title
+    {
+        font-size: 56px;
+        line-height: 60px;
+    }
 
 
 
@@ -55,6 +85,71 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block
+    {
+        line-height: 26px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: 45px;
+    }
+
+    .text_block h2
+    {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .text_block h3
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+
+    .text_block blockquote .text
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+
+    .text_block ul
+    {
+        padding-left: 0;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 12px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 10px;
+    }
+
+
+    .text_block ol
+    {
+        padding-left: 0;
+    }
 
 
 
@@ -273,6 +368,58 @@
     .invest .slide
     {
         width: 196px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .years
+    {
+        margin-bottom: 20px;
+    }
+
+    .articles .row + .years
+    {
+        margin-top: 20px;
+    }
+
+    .articles .years > *
+    {
+        width: calc(25% - 10px);
+    }
+
+    .articles .years a
+    {
+        font-size: 16px;
+        line-height: 18px;
+
+        min-height: 40px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .cont > * + *
+    {
+        margin-top: 35px;
+    }
+
+    .article_info .head .article_title
+    {
+        font-size: 56px;
+        line-height: 60px;
+
+        padding-bottom: 20px;
     }
 
 

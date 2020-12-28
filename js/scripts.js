@@ -24,32 +24,32 @@ $(() => {
 		dots: false,
 		loop: false,
 		smartSpeed: 500,
-		startPosition:2,
+		startPosition: 2,
 		responsive: {
 			0: {
 				items: 1,
 				margin: 20,
-				startPosition:7
+				startPosition: 7
 			},
 			480: {
 				items: 2,
 				margin: 20,
-				startPosition:6
+				startPosition: 6
 			},
 			768: {
 				items: 3,
 				margin: 20,
-				startPosition:6
+				startPosition: 6
 			},
 			1024: {
 				items: 5,
 				margin: 20,
-				startPosition:4
+				startPosition: 4
 			},
 			1280: {
 				items: 6,
 				margin: 20,
-				startPosition:3
+				startPosition: 3
 			}
 		},
 		onInitialized: event => {
@@ -75,7 +75,11 @@ $(() => {
 
 $(window).on('load', () => {
 	// Фикс. шапка
-	headerInit = true
+	headerInit = true,
+		headerHeight = $('header').outerHeight()
+
+	$('header:not(.absolute)').wrap('<div class="header_wrap"></div>')
+	$('.header_wrap').height(headerHeight)
 
 	headerInit && $(window).scrollTop() > 0
 		? $('header').addClass('fixed')
@@ -106,9 +110,13 @@ $(window).on('load', () => {
 $(window).resize(() => {
 	// Фикс. шапка
 	headerInit = false
+	$('.header_wrap').height('auto')
 
 	setTimeout(() => {
 		headerInit = true
+		headerHeight = $('header').outerHeight()
+
+		$('.header_wrap').height(headerHeight)
 
 		headerInit && $(window).scrollTop() > 0
 			? $('header').addClass('fixed')

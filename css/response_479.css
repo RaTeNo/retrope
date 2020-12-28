@@ -59,6 +59,11 @@
     /*---------------
         Page head
     ---------------*/
+    .page_title
+    {
+        font-size: 38px;
+        line-height: 42px;
+    }
 
 
 
@@ -82,6 +87,17 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block h2
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .text_block h3
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
 
 
 
@@ -171,6 +187,19 @@
     .invest .slide
     {
         width: 100%;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head .article_title
+    {
+        font-size: 38px;
+        line-height: 42px;
+
+        padding-bottom: 15px;
     }
 
 

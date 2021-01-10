@@ -69,6 +69,18 @@ $(() => {
 
 	// Анимация заголовка в первом блоке
 	typeEffect(document.querySelector('.typeEffect1'), 75)
+
+
+	// Счётчик чисел
+	$('.count').each(function () {
+		$(this).prop('Counter', 0).animate({ Counter: $(this).text().replace(/\s+/g, '') }, {
+			duration: 2000,
+			easing: 'linear',
+			step: function (now) {
+				$(this).text(Math.ceil(now).toLocaleString())
+			}
+		})
+	})
 })
 
 

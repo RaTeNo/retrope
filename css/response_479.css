@@ -66,10 +66,22 @@
     }
 
 
+    .page_desc
+    {
+        font-size: 15px;
+    }
+
+
 
     /*----------------
         Block head
     ----------------*/
+    .block_head .title .gradient
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
     .block_head .sub_title
     {
         font-size: 18px;
@@ -174,6 +186,19 @@
     /*----------
         Team
     ----------*/
+    .team .tabs button + button
+    {
+        margin-left: 25px;
+    }
+
+    .team .tabs button
+    {
+        font-size: 16px;
+
+        padding-bottom: 6px;
+    }
+
+
     .team .links > *
     {
         width: calc(100% - 30px);
@@ -200,6 +225,153 @@
         line-height: 42px;
 
         padding-bottom: 15px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*----------------
+        Join block
+    ----------------*/
+    .join_block .title
+    {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+
+
+    /*-----------------
+        Media block
+    -----------------*/
+    .media_block .tabs button
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .media_block .tab_content .more
+    {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+
+    /*---------------
+        Map block
+    ---------------*/
+    .map_block .info
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding: 30px;
+    }
+
+    .map_block .info .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*----------------
+        Learn more
+    ----------------*/
+    .learn_more .info .details
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .learn_more .info .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    /*-----------------
+        Indications
+    -----------------*/
+    .indications .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*----------------
+        Developing
+    ----------------*/
+    .developing .title
+    {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+
+
+    /*--------------------
+        Advisory board
+    --------------------*/
+    .advisory_board .level1_tabs button
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .advisory_board .col_left .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .advisory_board .tab_content.level2.active
+    {
+        padding: 20px;
+    }
+
+
+    .advisory_board .person_info .info
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*--------------------
+        Collaborations
+    --------------------*/
+    .collaborations .info .details
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .collaborations .info .title
+    {
+        font-size: 26px;
+        line-height: 30px;
     }
 
 

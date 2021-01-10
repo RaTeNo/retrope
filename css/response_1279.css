@@ -119,9 +119,10 @@
         padding-bottom: 80px;
     }
 
-    .page_head .cont > * + *
+
+    .breadcrumbs
     {
-        margin-top: 60px;
+        margin-bottom: 50px;
     }
 
 
@@ -129,6 +130,12 @@
     {
         font-size: 60px;
         line-height: 60px;
+    }
+
+
+    .page_desc
+    {
+        font-size: 19px;
     }
 
 
@@ -141,10 +148,16 @@
         padding-bottom: 29px;
     }
 
+    .block_head .title .gradient
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
     .block_head .sub_title
     {
-        font-size: 34px;
-        line-height: 46px;
+        font-size: 30px;
+        line-height: 42px;
     }
 
 
@@ -360,7 +373,7 @@
     ----------*/
     .team
     {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
 
@@ -429,7 +442,7 @@
     ------------*/
     .invest
     {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
 
@@ -513,6 +526,231 @@
         line-height: 60px;
 
         padding-bottom: 30px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        padding-top: 35px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 56px;
+        line-height: 50px;
+
+        margin-bottom: 15px;
+    }
+
+
+
+    /*----------------
+        Join block
+    ----------------*/
+    .join_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .join_block .title
+    {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+
+    .join_block .info
+    {
+        width: calc(100% - 260px);
+    }
+
+
+    .join_block .text_block
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-----------------
+        Media block
+    -----------------*/
+    .media_block .tabs
+    {
+        width: 375px;
+        padding: 50px 0;
+    }
+
+    .media_block .tabs > * + *
+    {
+        margin-top: 44px;
+    }
+
+    .media_block .tabs button
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .media_block .tabs button .arr
+    {
+        left: calc(100% + 20px);
+    }
+
+
+    .media_block .tab_content.active
+    {
+        width: calc(100% - 425px);
+    }
+
+
+    .media_block .tab_content .more
+    {
+        margin-top: 25px;
+        padding-bottom: 15px;
+    }
+
+
+
+    /*---------------
+        Map block
+    ---------------*/
+    .map_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .map_block .info
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        width: 320px;
+        padding: 40px;
+    }
+
+    .map_block .info .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Learn more
+    ----------------*/
+    .learn_more .info .details,
+    .learn_more .info .title
+    {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+
+
+    /*-----------------
+        Indications
+    -----------------*/
+    .indications .item .main
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .indications .item .sub
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    /*----------------
+        Developing
+    ----------------*/
+    .developing
+    {
+        padding: 80px 0;
+    }
+
+
+    .developing .title
+    {
+        padding-right: 60px;
+    }
+
+
+    .developing .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        padding: 0 0 0 60px;
+    }
+
+
+
+    /*--------------------
+        Advisory board
+    --------------------*/
+    .advisory_board .col_left
+    {
+        width: 410px;
+    }
+
+    .advisory_board .col_left .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+    .advisory_board .level2_tabs
+    {
+        padding: 10px 0;
+    }
+
+    .advisory_board .level2_tabs > * + *
+    {
+        margin-top: 25px;
+    }
+
+    .advisory_board .level2_tabs button
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .advisory_board .level2_tabs button .arr
+    {
+        left: calc(100% + 20px);
+    }
+
+
+    .advisory_board .tab_content.level2.active
+    {
+        width: calc(100% - 460px);
+    }
+
+
+
+    /*--------------------
+        Collaborations
+    --------------------*/
+    .collaborations .info .details,
+    .collaborations .info .title
+    {
+        font-size: 34px;
+        line-height: 42px;
     }
 
 

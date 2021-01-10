@@ -107,15 +107,11 @@
     }
 
 
-    .page_head .cont > * + *
-    {
-        margin-top: 30px;
-    }
-
-
     .breadcrumbs
     {
         line-height: 22px;
+
+        margin-bottom: 30px;
     }
 
 
@@ -123,6 +119,14 @@
     {
         font-size: 44px;
         line-height: 50px;
+    }
+
+
+    .page_desc
+    {
+        font-size: 17px;
+
+        margin-top: 20px;
     }
 
 
@@ -138,6 +142,12 @@
     .block_head .title
     {
         padding-bottom: 19px;
+    }
+
+    .block_head .title .gradient
+    {
+        font-size: 40px;
+        line-height: 40px;
     }
 
     .block_head .sub_title
@@ -392,6 +402,12 @@
     }
 
 
+    .team .tabs button
+    {
+        font-size: 18px;
+    }
+
+
     .team .item .photo
     {
         margin: 0 auto 10px;
@@ -508,6 +524,281 @@
     {
         font-size: 44px;
         line-height: 50px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .stats .item
+    {
+        font-size: 15px;
+    }
+
+    .stats .item .val
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        margin-bottom: 10px;
+    }
+
+
+
+    /*----------------
+        Join block
+    ----------------*/
+    .join_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .join_block .title
+    {
+        font-size: 42px;
+        line-height: 44px;
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .join_block .title br
+    {
+        display: none;
+    }
+
+
+    .join_block .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------------
+        Media block
+    -----------------*/
+    .media_block .tabs button
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+
+    /*---------------
+        Map block
+    ---------------*/
+    .map_block
+    {
+        padding: 0;
+    }
+
+
+    .map_block .info
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .map_block .map
+    {
+        position: relative;
+
+        height: 320px;
+    }
+
+
+
+    /*----------------
+        Learn more
+    ----------------*/
+    .learn_more .info
+    {
+        width: 100%;
+    }
+
+
+    .learn_more .info .details
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 10px;
+    }
+
+    .learn_more .info .details:after
+    {
+        top: 4px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .learn_more .info .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
+    /*-----------------
+        Indications
+    -----------------*/
+    .indications .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .indications .item .main
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .indications .item .sub
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .indications .item .sub > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*----------------
+        Developing
+    ----------------*/
+    .developing
+    {
+        padding: 60px 0;
+    }
+
+
+    .developing .title
+    {
+        font-size: 36px;
+        line-height: 42px;
+
+        width: 100%;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+
+    .developing .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .developing .bg
+    {
+        right: 0;
+
+        width: 100%;
+    }
+
+
+    .developing .parallax
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Advisory board
+    --------------------*/
+    .advisory_board .level1_tabs
+    {
+        margin-bottom: 30px;
+    }
+
+    .advisory_board .level1_tabs button
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        width: 100%;
+        padding-bottom: 4px;
+    }
+
+    .advisory_board .level1_tabs button + button
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .advisory_board .col_left .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+    .advisory_board .tab_content.level2.active
+    {
+        padding: 25px;
+    }
+
+    .advisory_board .person_info .details
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------------
+        Collaborations
+    --------------------*/
+    .collaborations .info
+    {
+        width: 100%;
+    }
+
+
+    .collaborations .info .details
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 10px;
+    }
+
+    .collaborations .info .details:after
+    {
+        top: 4px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .collaborations .info .title
+    {
+        font-size: 28px;
+        line-height: 32px;
     }
 
 
